@@ -9,6 +9,7 @@
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
+        <link href="{{assest('css/app.css')}}" rel="stylesheet" type="text/css">
 
         <!-- Styles -->
         <style>
@@ -76,7 +77,11 @@
                     @endauth
                 </div>
             @endif
+<a href="#">Inbox <span class="badge">42</span></a>
 
+<button class="btn btn-primary" type="button">
+  Messages <span class="badge">4</span>
+</button>
             <div class="content">
                 <div class="title m-b-md">
                     Laravel
